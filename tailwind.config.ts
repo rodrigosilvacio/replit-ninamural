@@ -83,9 +83,11 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
+        sans: ["DM Sans", "var(--font-sans)"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
+        display: ["Architects Daughter", "var(--font-sans)"],
+        body: ["DM Sans", "var(--font-sans)"],
       },
       keyframes: {
         "accordion-down": {
